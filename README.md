@@ -18,16 +18,18 @@ Results are once again provided in "Section1/Reporting/", including performance 
 
 ## Section 2
 ### Part 1
-X
+An implementation of Heap-Sort which stores the binary heap with the root at index 1. The value at index 0 is ignored.  This function makes use of several helper functions, including parent, left, right, max_heapify, and build_max_heap.  The performance of this algorithm is then compared to that of Merge-Sort from Section 1, Part 1.  The test cases are randomly-generated lists of numbers.
+
+Results for Parts 1-4 in Section 2 [all below] can be found in "Section2/Reporting/".
 
 ### Part 2
-X
+An implementation of Quicksort that utilizes the "Partition" helper function.  Randomly-generated arrays are used to compare its performance with both Mergesort and Heapsort.
 
 ### Part 3
-X
+Contains the previous implementations of Heap-Sort, Merge-Sort, and Quicksort, along with two modified versions of the Quicksort algorithm.  Randomized Quicksort picks a pivot point at random.  Median-of-Three Quicksort takes the first number in the list, the last number in the list, and the number in the middle of the list.  It then finds the median of those three values and uses it as the pivot.  The purpose of introducing these variations of Quicksort is to mitigate the algorithm's poor performance on lists that are already sorted.  All of these algorithms are tested on pre-sorted lists.
 
 ### Part 4
-X
+Contains only the quicksort algorithm and its two modified forms.  All of their performances are tested on both randomly-generated lists and completely sorted lists.
 
 ## Authors
 * [Aaron Csetter](https://github.com/acsetter)
