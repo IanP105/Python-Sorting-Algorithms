@@ -1,7 +1,7 @@
 # Python-Sorting-Algorithms
 
 ## Overview
-This project does X.
+This project serves to compare the performance of different sorting algorithms in Python.  Lists with different lengths and compositions are used to highlight the strengths and weaknesses of certain algorithms.  Detailed performance measuerments and test results have been made available here.
 
 ## Section 1
 ### Part 1
